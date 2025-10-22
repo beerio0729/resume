@@ -83,8 +83,8 @@ class EmployeeForm
                                     ]),
                                 FileUpload::make('image')
                                     ->label('กรุณาอับโหลดรูปภาพ')
-                                    ->disk('resume_storage')
-                                    //->visibility('public')
+                                    ->disk('s3_public')
+                                    ->visibility('public')
                                     ->preserveFilenames() 
                                     ->avatar()
                                     // ->directory('resume_storage')

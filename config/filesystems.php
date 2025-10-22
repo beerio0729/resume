@@ -67,13 +67,14 @@ return [
             'region' => env('AWS_DEFAULT_REGION'),
             'bucket' => env('AWS_BUCKET_PUBLIC'),
             'url' => env('AWS_URL_PUBLIC'),
+            'visibility' => 'public',
         ],
-        
+
         'resume_storage' => [
             'driver' => 'local',
             'root' => '\\\\127.0.0.1\\resume_storage', // path เต็มไปยังโฟลเดอร์บน F:\
-            'visibility' => 'public', 
-            'url' => env('APP_URL').'/resume_storage',     // กำหนดว่าไฟล์สามารถเข้าถึงได้จาก URL ถ้าต้องการ
+            'visibility' => 'public',
+            'url' => env('APP_URL') . '/resume_storage',     // กำหนดว่าไฟล์สามารถเข้าถึงได้จาก URL ถ้าต้องการ
         ],
 
 

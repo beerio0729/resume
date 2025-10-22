@@ -33,7 +33,7 @@ class EmployeesTable
                     // //     ->visibleFrom('sm')
                     //     ->extraAttributes(['style' => 'width:20px']),
                     ImageColumn::make('image')
-                        ->disk('resume_storage')
+                        ->disk('s3_public')
                         ->visibility('public')
                         ->circular()
                         ->grow(false),
