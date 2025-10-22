@@ -1,0 +1,91 @@
+{
+    "full_name": "สุดา ประเสริฐ",
+    "prefix_name": "นางสาว",
+    "name": "สุดา",
+    "last_name": "ประเสริฐ",
+    "email": "suda.p@example.com",
+    "tel": "0812345678",
+    "nationality": "ไทย",
+    "religion": "พุทธ",
+    "date_of_birth": "1995-10-15",
+    "weight": "55",
+    "height": "165",
+    "gender": "หญิง",
+    "marital_status": "โสด",
+    "military": "ผ่านเกณฑ์หารแล้ว",
+    "address": [
+        {
+            "address_line_1": "99/10 หมู่บ้านสุขใจ",
+            "sub_district": "คลองสาม",
+            "district": "คลองหลวง",
+            "province": "ปทุมธานี",
+            "zip_code": "12120"
+        }
+    ],
+    "work_experience": [
+        {
+            "company": "Tech Solutions จำกัด",
+            "position": "Junior Developer",
+            "duration": "2018-06 - 2022-12",
+            "salary": "22000.00",
+            "details": "รับผิดชอบงานพัฒนาและดูแลเว็บไซต์หลัก"
+        },
+        {
+            "company": "null",
+            "position": "null",
+            "duration": "null",
+            "salary": "null",
+            "details": "null"
+        }
+    ],
+    "education": [
+        {
+            "institution": "มหาวิทยาลัย ABC",
+            "degree": "วิศวกรรมศาสตร์บัณทิต",
+            "major": "วิทยาการคอมพิวเตอร์",
+            "gpa": "3.45",
+            "education_level": "ปริญญาตรี",
+            "faculty": "วิศวกรรมศาสตร์",
+            "start_year": "2014",
+            "last_year": "2018"
+        }
+    ],
+    "languages": [
+        {
+            "language": "อังกฤษ",
+            "speaking": "ดีเยี่ยม",
+            "reading": "ดีเยี่ยม",
+            "writing": "ดี"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Laravel Framework",
+            "level": "สูง"
+        },
+        {
+            "name": "Figma",
+            "level": "กลาง"
+        }
+    ],
+    "other_contacts": [
+        {
+            "name": "สมชาย ใจดี",
+            "contact": "0899876543"
+        }
+    ],
+    "job_preference": {
+        "availability_date": "2025-01-01",
+        "expected_salary": "25000",
+        "desired_positions": [
+            "Software Developer",
+            "Full-Stack Programmer"
+        ]
+    },
+    "certificates": [
+        {
+            "name": "Cisco Certified Network Associate (CCNA)",
+            "date_obtained": "2023-05"
+        }
+    ]
+}
