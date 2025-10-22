@@ -7,7 +7,7 @@ use Filament\Actions\CreateAction;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use Filament\Notifications\Notification;
-use Filament\Forms\Components\fileUpload;
+use Filament\Forms\Components\FileUpload;
 use Filament\Resources\Pages\ListRecords;
 use App\Http\Controllers\PdfResumeController;
 use App\Filament\Resources\Employees\EmployeeResource;
@@ -34,7 +34,7 @@ class ListEmployees extends ListRecords
                 ->color('info')
                 ->icon('heroicon-m-arrow-top-right-on-square')
                 ->schema([
-                    fileUpload::make('attachment')
+                    FileUpload::make('attachment')
                         ->label('อับโหลดไฟล์ได้พร้อมกันมากกกว่า 1 ไฟล์')
                         ->multiple()
                         ->disk('resume_storage')

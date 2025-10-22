@@ -59,6 +59,15 @@ return [
             'throw' => false,
             'report' => false,
         ],
+
+        's3_public' => [
+            'driver' => 's3',
+            'key' => env('AWS_ACCESS_KEY_ID'),
+            'secret' => env('AWS_SECRET_ACCESS_KEY'),
+            'region' => env('AWS_DEFAULT_REGION'),
+            'bucket' => env('AWS_BUCKET_PUBLIC'),
+            'url' => env('AWS_URL_PUBLIC'),
+        ],
         
         'resume_storage' => [
             'driver' => 'local',
