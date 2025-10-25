@@ -34,7 +34,7 @@ class EmployeesTable
                     //     ->extraAttributes(['style' => 'width:20px']),
                     ImageColumn::make('image')
                         ->disk('s3_public')
-                        ->visibility('private')
+                        //->visibility('private')
                         ->circular()
                         ->grow(false),
                     TextColumn::make('name')->label('ชื่อ')->searchable()->sortable()

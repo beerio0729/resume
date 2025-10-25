@@ -67,7 +67,7 @@ return [
             'region' => env('AWS_DEFAULT_REGION'),
             'bucket' => env('AWS_BUCKET_PUBLIC'),
             'url' => env('AWS_URL_PUBLIC'),
-            'visibility' => 'private',
+            //'visibility' => 'private',
         ],
 
         'resume_storage' => [

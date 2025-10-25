@@ -27,7 +27,7 @@ class PdfResumeController extends Controller
         }
 
         // กำหนด path หลักของไฟล์ในเครื่อง
-        $basePath = 'F:\\resume_storage\\';
+        $basePath = env('AWS_URL_PUBLIC')."/";
 
         // สร้าง array ของไฟล์ที่ต้องการส่ง
         $files = [];
@@ -46,6 +46,7 @@ class PdfResumeController extends Controller
 
         // รับผลลัพธ์ JSON กลับ
         $result = $response->json();
+        //dd($result);
         //สร้าง function สำหรับ refresh หน้า หรือ redicrect('')
         if (!empty($result)) {
             foreach ($result as $fileData) {

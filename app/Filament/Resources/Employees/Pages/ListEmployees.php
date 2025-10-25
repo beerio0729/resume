@@ -36,7 +36,7 @@ class ListEmployees extends ListRecords
                 ->schema([
                     FileUpload::make('attachment')
                         ->label('อับโหลดไฟล์ได้พร้อมกันมากกกว่า 1 ไฟล์')
-                        //->multiple()
+                        ->multiple()
                         ->disk('s3_public')
                         ->getUploadedFileNameForStorageUsing(function (TemporaryUploadedFile $file): string {
                             $extension = $file->getClientOriginalExtension();
